@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.TextField?>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csd_214_lab3_bibek_lamichhane.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcome" />
+    <Label fx:id="email" text="Email" />
+    <TextField fx:id="eee"/>
+    <Label fx:id="pwd" text="Password" />
+    <PasswordField fx:id="ppp" />
+    <Button fx:id="loginbutton" onAction="#onHelloButtonClick" text="Log In !" />
+
+</VBox>
